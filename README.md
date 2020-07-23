@@ -11,7 +11,7 @@ HTML 4.01 이후에는 외부의 스타일 시트가 도입되어 파일 형태�
 <p>IE는 웹표준을 준수하지 않으며 ActiveX를 사용하는데 이것이 보안상의 문제를 일으킬 수 있다.
 IE의 취약한 보안을 고치거나 패치를 할 수 없다.</p>
 
-<h2>3. <'section'>과 <'div'>, <'header'>, <'footer'>, <'article'> 엘리먼트의 차이점은 무엇인가요?</h2>
+<h2>3. <code><section></code>과 <code><div></code>, <code><header></code>, <code><footer></code>, <code><article></code> 엘리먼트의 차이점은 무엇인가요?</h2>
 <p><section>은 독립적인 구역을 표시할 때 사용한다.
 <header>는 제목과 같은 내용을 담을 때 사용된다.
 <div>는 컨텐츠의 구획을 구분할 때 사용된다.
