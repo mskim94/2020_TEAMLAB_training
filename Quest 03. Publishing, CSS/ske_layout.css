@@ -1,0 +1,282 @@
+#wrap{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; /* layout을 감싸는 전체: wrap */
+  margin: 0;
+  padding: 0;
+}
+
+#header{
+  top: 0;
+  left: 0;
+  height: 60px;
+  background-color: lightgray;
+}  /* 크기는 위 wrap에서 상속 받음 */
+
+#git_logo{
+  top: 30px;
+  left: 300px;
+}
+
+#git_search{
+  position: absolute;
+  left: 450px;
+  top: 15px;
+}
+
+#head_nav{
+  position: absolute;
+  right: 800px;
+  top: 15px;
+  display: inline;
+}
+
+#sign_button{
+  position: absolute;
+  right: 320px;
+  top: 10px;
+}
+
+#sign_button button{
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: lightgreen;
+  font-size: 20px;
+  padding: 5px;
+}
+
+#main{
+  background: white;
+  height: 88%;
+  top: 60px;
+  bottom: 60px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+#left_main{
+  background-color: white;
+  height: 100%;
+  width: 80%;
+  bottom: 60px;
+  float: left;
+} /* main의 80% */
+
+#book_title{
+  font-size: 25px;
+  position: absolute;
+  left: 340px;
+  top: 70px;
+}
+
+#repo_name_desc{
+  position: absolute;
+  left: 305px;
+  top: auto;
+}
+
+#right_main{
+  background-color: white;
+  height: 100%;
+  width: 20%;
+  bottom: 60px;
+  float: right;
+} /* main의 20% */
+
+#function_button{
+  position: absolute;
+  right: 320px;
+}
+
+#com_bra_rel_con{
+  position: absolute;
+  left: 305px;
+  top: 150px;
+}
+
+div .under_com{
+  position: absolute;
+  top: 200px;
+  left: 305px;
+}
+
+div .middle_desc{
+  display: inline;
+}
+
+div .left_button{
+  position: absolute;
+  top: 10px;
+  left: 1020px;
+}
+
+div .This_branch{
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  position: absolute;
+  left: 305px;
+  top: 250px;
+  width: 1050px;
+  border: 1px solid;
+}
+
+div .middle_table{
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  position: absolute;
+  left: 305px;
+  top: 280px;
+  width: 1050px;
+
+}
+
+div .middle_contents{
+  left: 305px;
+  top: 280px;
+  width: 1050px;
+
+}
+
+div .commit_table{
+  position: absolute;
+  width: 1050px;
+}
+
+div .bottom_table{
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  position: absolute;
+  left: 305px;
+  top: 480px;
+  width: 1050px;
+  border: 1px solid;
+}
+
+div .right_tab{
+  position: absolute;
+  right: 460px;
+  top: 150px;
+}
+
+#clone_url{
+  position: absolute;
+  top: 300px;
+}
+
+#url_blank{
+  position: absolute;
+  top: 320px;
+
+}
+
+#clone_desc{
+  position: absolute;
+  top: 345px;
+
+}
+
+#bottom_contents{
+  border: 1px solid;
+  width: 1050px;
+}
+
+#b_font{
+  font-size: 55px;
+}
+#commit{
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1px solid;
+  padding: 5px;
+}
+
+#watch{
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 10px;
+  padding: 1px;
+}
+
+#star{
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 10px;
+  padding: 1px;
+}
+
+#folk{
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 10px;
+  padding: 1px;
+}
+
+
+#clear{
+  clear:both;
+}
+
+
+#footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  background-color: lightgray;
+}
+
+div .foot_right{
+  position: absolute;
+	left: 300px;
+	bottom:20px;
+}
+
+div .foot_link_left{
+  position: absolute;
+	left: 500px;
+	bottom:20px;
+}
+
+div .foot_link_right{
+  position: absolute;
+	right: 300px;
+	bottom: 20px;
+}
+
+div .small_git_image{
+  position: absolute;
+	right: 900px;
+	bottom: 12px;
+}
+
+div .right_button{
+  position: absolute;
+  bottom: 550px;
+}
+
+div .up_button{
+  width: 200px;
+}
+
+div .down_button{
+  width: 200px;
+}
