@@ -13,11 +13,13 @@
   left: 0;
   height: 60px;
   background-color: lightgray;
+  align-items: center;
 }  /* 크기는 위 wrap에서 상속 받음 */
 
 #git_logo{
   top: 30px;
   left: 300px;
+  display: flex;
 }
 
 #git_search{
@@ -48,6 +50,7 @@
   font-size: 20px;
   padding: 5px;
 }
+
 
 #main{
   background: white;
@@ -217,7 +220,7 @@ div .right_tab{
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   font-size: 10px;
-  padding: 1px;
+  padding: 6px;
 }
 
 #folk{
@@ -279,4 +282,8 @@ div .up_button{
 
 div .down_button{
   width: 200px;
+}
+
+table .middle_contents{
+  padding: 20px;
 }
