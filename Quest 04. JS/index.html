@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Online shopping</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="img/logo.png" alt="logo" onclick="displayItems(items)">
+        </header>
+        <div id = "buttons-layout">
+            <button class = "buttons-img" id = 'buttons-t' onclick="displayItems(filter('tshirt'))">
+                <img src="img/blue_t.png" alt="tshirt" class = "button-image">
+            </button>
+            <button class = "buttons-img" id = 'buttons-p' onclick="displayItems(filter('pants'))">
+                <img src="img/blue_p.png" alt="pants" class = "button-image">
+            </button>
+            <button class = "buttons-img" id = 'buttons-s' onclick="displayItems(filter('skirt'))">
+                <img src="img/blue_s.png" alt="skirt" class = "button-image">
+            </button>
+            <button class = "buttons-clr" id = 'buttons-blue' onclick="displayItems(filter('blue'))">Blue</button>
+            <button class = "buttons-clr" id = 'buttons-yellow' onclick="displayItems(filter('yellow'))">Yellow</button>
+            <button class = "buttons-clr" id = 'buttons-pink' onclick="displayItems(filter('pink'))">Pink</button>
+        </div>
+
+        <div id = "items"></div>
+        <script src = "src/main.js"></script>
+    </body>
+</html>
